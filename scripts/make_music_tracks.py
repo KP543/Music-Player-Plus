@@ -1,5 +1,5 @@
 import os
-//test
+#test
 for dirpath, dirnames, filenames in os.walk("../music/dementive_roman_music"):
 	for filename in [f for f in filenames if f.endswith(".mp3")]:
 		try:
